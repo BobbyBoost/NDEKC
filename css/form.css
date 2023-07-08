@@ -53,6 +53,7 @@
   font-size: 16px;
 	font-family: 'Raleway';
   transition: background-color 0.2s ease-in;
+	border-radius: 5px;
 }
 
 .form__privacy {
@@ -75,6 +76,7 @@
 	background-color: #d4c17f;
   transition: background-color 0.2s ease-in;
 	margin-left: 73.25%;
+	border-radius: 5px;
 }
 
 @media (max-width: 1200px) {

@@ -421,9 +421,8 @@ html, body {
 	}
 
 	.header__title strong {
-		font-size: 28px;
+		font-size: 24.75px;
 		font-weight: 700;
-		font-style: italic;
 	}
 
 	/* Nav */
@@ -444,26 +443,14 @@ html, body {
 	
 	.title-1 {
 		margin-bottom: 5px;
-		font-size: 30px;
-	}
-
-	.title-2 {
-		margin-bottom: 10px;
-		font-size: 30px;
+		font-size: 26px;
 	}
 
 	/* Projects */
 
 	.project__title {
-		font-size: 20px;
+		font-size: 18.5px;
 		text-align: center;
-	}
-
-	/* Project page */
-
-	.project-details__desc {
-		margin-bottom: 20px;
-		font-size: 22px;
 	}
 
 	/* Content List */
