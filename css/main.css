@@ -71,10 +71,10 @@ html, body {
   margin-right: auto;
   margin-left: 100px;
 	font-family: 'Raleway';
-
 	padding: 0 15px;
 	max-width: 1000px;
-	border: 1px solid black;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
 }
 
 .container__title2 {
@@ -84,7 +84,8 @@ html, body {
 	font-family: 'Raleway';
 	padding: 0 15px;
 	max-width: 1000px;
-	border: 1px solid black;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
 }
 
 .none {
