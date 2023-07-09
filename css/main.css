@@ -236,12 +236,12 @@ html, body {
 
 	background: linear-gradient(
 		180deg,
-		#242b33 10.42%,
+		#242b33 5.42%,
 		rgba(36, 43, 51, 0) 40.52%,
-		#242b33 90.1%
+		#242b33 95.1%
 	),
 	linear-gradient(0deg, rgba(36, 43, 51, 0.75), rgba(36, 43, 51, 0.6)),
-	url('./../img/form/car-inspection.jpg'), #c4c4c4;
+	url('./../img/form/Car.png'), #c4c4c4;
 
 	color: var(--header-text);
 	text-align: center;
@@ -416,6 +416,14 @@ html, body {
 
 	.header {
     min-height: unset;
+		background: linear-gradient(
+		180deg,
+		#242b33 5.42%,
+		rgba(36, 43, 51, 0) 40.52%,
+		#242b33 95.1%
+	),
+	linear-gradient(0deg, rgba(36, 43, 51, 0.75), rgba(36, 43, 51, 0.6)),
+	url('./../img/form/CarMini.png'), #c4c4c4;
 	}
 
 	.header__title {

@@ -9,7 +9,7 @@
 		#242b33 90.1%
 	),
 	linear-gradient(0deg, rgba(36, 43, 51, 0.65), rgba(36, 43, 51, 0.75)),
-	url('./../img/form/FIX.jpg'), #c4c4c4;
+	url('./../img/form/Fix.png'), #c4c4c4;
 }
 
 .title-3 {
@@ -100,7 +100,7 @@
 	}
 }
 
-@media (max-width: 470px) {
+@media (max-width: 620px) {
 	.form__btn {
 		margin-top: 15px;
 		margin-left: auto;
@@ -109,12 +109,12 @@
 	.cta {
 		background: linear-gradient(
 			180deg,
-			#242b33 10.42%,
+			#242b33 5.5%,
 			rgba(36, 43, 51, 0) 40.52%,
-			#242b33 90.1%
+			#242b33 95.5%
 		),
 		linear-gradient(0deg, rgba(36, 43, 51, 0.65), rgba(36, 43, 51, 0.75)),
-		url('./../img/form/FIXmini.jpg'), #c4c4c4;
+		url('./../img/form/FixMini.png'), #c4c4c4;
 	}
 }
 
