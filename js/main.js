@@ -43,3 +43,25 @@ btnDarkMode.onclick = function () {
         localStorage.setItem("darkMode", "light");
     }
 }
+
+
+// Заявки на пошту через форму
+var btn = document.getElementById("btn");
+btn.addEventListener("click", function(e) {
+	e.preventDefault()
+	var name = document.getElementById("name").value;
+	var phone = document.getElementById("phone").value;
+	var body = "Ім'я: " + name + "<br> Номер: " + phone;
+
+	Email.send({
+	SecureToken : "1d90b1c4-e933-4d69-8347-647a004e7ed2",
+	To : 'fladeaye@gmail.com',
+	From : "contact@bloodygamingreview.com",
+	Subject : "Новий запрос на консультацію",
+	Body : body
+}).then(
+message => alert("Дякуємо, заявку успішно надіслано!")
+);
+} )
+
+
