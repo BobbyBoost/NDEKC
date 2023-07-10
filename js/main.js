@@ -57,7 +57,7 @@ btn.addEventListener("click", function(e) {
 	SecureToken : "1d90b1c4-e933-4d69-8347-647a004e7ed2",
 	To : 'fladeaye@gmail.com',
 	From : "contact@bloodygamingreview.com",
-	Subject : "Запит на консультацію",
+	Subject : "Новий запит на консультацію",
 	Body : body
 }).then(
 message => alert("Дякуємо, заявку успішно надіслано!")
