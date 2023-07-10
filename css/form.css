@@ -48,7 +48,7 @@
 
 .form__input {
   height: 50px;
-  padding: 12px;
+  padding: 13px;
   text-align: center;
 	margin-bottom: 5px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -113,7 +113,10 @@
 	}
 
 	.form__input {
-		font-size: 12px;
+		height: 50px;
+		padding: 0;
+		margin-bottom: 5px;
+		font-size: 14px;
 	}
 
 	.cta {
@@ -135,6 +138,8 @@
 	p {
 		font-size: 14.5px;
 	}
+
+	
 }
 
 
