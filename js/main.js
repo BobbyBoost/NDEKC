@@ -64,4 +64,18 @@ message => alert("Дякуємо, заявку успішно надіслано
 );
 } )
 
+/* Маска на номер телефону */ 
+
+mask("[data-tel-input]");
+
+// Видаляємо '+' якщо більше нічого не введено, щоб показати placeholder
+const phoneInputs = document.querySelectorAll('[data-tel-input]');
+phoneInputs.forEach((input)=>{
+	input.addEventListener('input', ()=>{
+		if (input.value == '+') input.value = '';
+	})
+	input.addEventListener('blur', ()=>{
+		if (input.value == '+') input.value = '';
+	})
+});
 

@@ -55,10 +55,9 @@
 		<div class="container">
 			<div class="cta__wrapper">
 				<div class="cta__text"><h2 class="title-3">Залишились питання?</h2><p>Залишайте заявку і наш менеджер вам зателефонує протягом робочого дня</p></div>
-				<div class="cta__form">
-<form class="form" onsubmit="sendEmail(); reset(); return false;">
+<form action="" class="cta__form form" onsubmit="sendEmail(); reset(); return false;">
 <input type="text" id="name" class="form__input" placeholder="Ваше ім'я" required>
-<input type="text" id="phone" class="form__input" placeholder="Ваш телефон" required>
+<input data-tel-input type="text" id="phone" class="form__input" placeholder="Ваш телефон" required>
 
 <p class="form__privacy">
 	Ми нікому не передаємо ваші данні.<br>І не зберігаємо ваш номер в базі.
@@ -69,7 +68,6 @@
 </form>
 				</div>
 			</div>
-		</div>
 	</section>
 
 	<footer class="footer">
@@ -93,6 +91,8 @@
 		</div>
 	</footer>
 	
+	<script src="./libs/phoneMask/mask.js"></script>
+	<script src="./libs/phoneMask/mask_list.js"></script>
 	<script src="./js/main.js"></script>
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
