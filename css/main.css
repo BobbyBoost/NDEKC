@@ -109,7 +109,7 @@ html, body {
 
 .title-2 {
 	margin-bottom: 15px;
-	font-size: 35px;
+	font-size: 34px;
 	font-weight: 700;
 	line-height: 1.75;
 	font-family: 'Raleway';
@@ -137,12 +137,13 @@ html, body {
 .logo {
 	margin-right: auto;
 	color: var(--header-text);
-	font-size: 24px;
-	font-family: 'Poppins', sans-serif;
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .logo strong {
 	font-weight: 700;
+	font-size: 24px;
 }
 
 .nav-list {
@@ -153,7 +154,7 @@ html, body {
 	column-gap: 40px;
 	font-size: 16px;
 	font-weight: 700;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	
 }
 
@@ -435,16 +436,6 @@ html, body {
 		font-weight: 700;
 	}
 
-	/* Nav */
-
-	.nav-row {
-		justify-content: space-between;
-	}
-
-	.dark-mode-btn {
-		order: 0;
-	}
-
 	/* General */
 
 	.section {
@@ -505,5 +496,37 @@ html, body {
 	.container__title2 {
 		margin: 0 auto;
 	}
-
 }
+
+@media (max-width: 400px) { /* Вказуємо як буде відображатись сторінка якшо екран буде меньше 620 пікселів */
+	
+	.nav-row {
+		justify-content: space-between;
+	}
+
+	.dark-mode-btn {
+		order: 0;
+		margin-left: 80%;
+		margin-bottom: -72px;
+		position: absolute;
+	}
+
+	.contact {
+		font-size: 29.4px;
+	}
+}
+
+@media (max-width: 350px) { /* Вказуємо як буде відображатись сторінка якшо екран буде меньше 620 пікселів */
+	
+	.dark-mode-btn {
+		order: 0;
+		margin-left: 77%;
+		margin-bottom: -10px;
+		position: absolute;
+	}
+
+	.contact {
+		font-size: 24.8px;
+	}
+}
+	
