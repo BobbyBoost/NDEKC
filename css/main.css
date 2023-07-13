@@ -73,7 +73,7 @@ html, body {
 	font-family: 'Raleway';
 	padding: 0 15px;
 	max-width: 1000px;
-	border-bottom: 1px solid black;
+
 	border-top: 1px solid black;
 }
 
@@ -85,7 +85,7 @@ html, body {
 	padding: 0 15px;
 	max-width: 1000px;
 	border-bottom: 1px solid black;
-	border-top: 1px solid black;
+
 }
 
 .none {
@@ -116,6 +116,11 @@ html, body {
 }
 
 /* Nav */
+
+.logo__img {
+	max-width: 54px;
+	max-height: 54px;
+}
 
 .nav {
 	padding: 20px 0;
@@ -374,11 +379,18 @@ html, body {
 .content-list__item {
 	font-size: 18px;
 	line-height: 1.5;
-
 }
 
 .content-list__item p + p {
 	margin-top: 0.5em;
+}
+
+.content-list__item1 p {
+	margin-top: 0.5em;
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: left;
+	margin-left: 12.5%;
 }
 
 /* Footer */
@@ -432,7 +444,7 @@ html, body {
 	}
 
 	.header__title strong {
-		font-size: 24px;
+		font-size: 22px;
 		font-weight: 700;
 	}
 
@@ -444,7 +456,7 @@ html, body {
 	
 	.title-1 {
 		margin-bottom: 5px;
-		font-size: 24px;
+		font-size: 23px;
 	}
 
 	/* Projects */
@@ -462,6 +474,14 @@ html, body {
 	
 	.content-list__item {
 		font-size: 16px;
+	}
+
+	.content-list__item1 p {
+		margin-top: 0.5em;
+		font-size: 16px;
+		line-height: 1.5;
+		text-align: left;
+		margin-left: 10%;
 	}
 
 	/* Footer */
@@ -497,6 +517,13 @@ html, body {
 		margin: 0 auto;
 	}
 }
+
+@media (max-width: 430px) {
+	.logo__img {
+		display: none;
+	}
+}
+
 
 @media (max-width: 400px) { /* Вказуємо як буде відображатись сторінка якшо екран буде меньше 620 пікселів */
 	
