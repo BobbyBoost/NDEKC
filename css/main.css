@@ -118,8 +118,8 @@ html, body {
 /* Nav */
 
 .logo__img {
-	max-width: 54px;
-	max-height: 54px;
+	max-width: 70px;
+	max-height: 70px;
 }
 
 .nav {
@@ -536,9 +536,9 @@ html, body {
 }
 
 @media (max-width: 430px) {
-	.logo__img {
+	/* .logo__img {
 		display: none;
-	}
+	} */
 
 	.title-2 {
 		font-size: 22px;
@@ -547,6 +547,10 @@ html, body {
 
 
 @media (max-width: 405px) { /* Вказуємо як буде відображатись сторінка якшо екран буде меньше 620 пікселів */
+	
+	.logo__img {
+		display: none;
+	}
 	
 	.nav-row {
 		justify-content: space-between;
