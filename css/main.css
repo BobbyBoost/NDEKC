@@ -1,7 +1,7 @@
 @import "./reset.css";
 @import "./form.css";
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Righteous&family=Urbanist:wght@500;600&display=swap');
 
 /*
 font-family: 'DM Sans', sans-serif;
@@ -159,8 +159,7 @@ html, body {
 	column-gap: 40px;
 	font-size: 16px;
 	font-weight: 700;
-	font-family: 'Raleway', sans-serif;
-	
+	font: 400 16px 'Inter', Arial, Helvetica, sans-serif;
 }
 
 .nav-list__link {
